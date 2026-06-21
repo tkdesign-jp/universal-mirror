@@ -73,6 +73,16 @@ chmod +x mirror.sh
 
 ---
 
+## スクリーンショット
+
+### ウェルカム画面
+
+![ウェルカム画面](screenshots/01-welcome.png)
+
+`raspi-config` 風の TUI がターミナル内で完結する。GUI 不要。
+
+---
+
 ## 使い方
 
 実行してプロンプトに従うだけ:

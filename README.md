@@ -73,6 +73,16 @@ On first run, the script generates two editable filter files in its own director
 
 ---
 
+## Screenshots
+
+### Welcome screen
+
+![Welcome screen](screenshots/01-welcome.png)
+
+The `raspi-config`-style TUI runs entirely inside your terminal — no GUI required.
+
+---
+
 ## Usage
 
 Just run it and follow the prompts:
