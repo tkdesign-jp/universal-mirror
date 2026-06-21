@@ -60,7 +60,7 @@ The script checks for both dependencies on startup and offers to install them vi
 ## Installation
 
 ```bash
-git clone https://github.com/kikuon/universal-mirror.git
+git clone https://github.com/tkdesign-jp/universal-mirror.git
 cd universal-mirror
 chmod +x mirror.sh
 ./mirror.sh
