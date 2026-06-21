@@ -1,0 +1,31 @@
+# Mirror output directories
+mirror_*/
+*_httrack.log
+
+# Backup files
+*.bak
+*.bak.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Custom exclusion sets (keep example, ignore user's local sets)
+exclusions_*.txt
+!exclusions.txt
