@@ -215,14 +215,15 @@ fi
 # ===== TUI screens =====
 
 tui_welcome() {
-    tui_msg --title "Universal Mirror v11" --msgbox \
+    # Use --yesno (not --msgbox) so ESC / Quit actually exits.
+    # whiptail's --msgbox ignores ESC on macOS (newt build).
+    tui_yesno --title "Universal Mirror v11" \
+        --yes-button "Continue" --no-button "Quit" --yesno \
 "Universal website mirror tool
   by HTTrack + whiptail
 
 Supports normal sites and Wayback Machine
-Mac/Linux compatible
-
-[OK to continue / ESC to cancel]" 14 60
+Mac/Linux compatible" 12 60
 }
 
 tui_url_input() {
