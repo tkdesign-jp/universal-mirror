@@ -81,6 +81,12 @@ chmod +x mirror.sh
 
 `raspi-config` 風の TUI がターミナル内で完結する。GUI 不要。
 
+### 完了画面
+
+![ダウンロード完了](screenshots/02-completion.png)
+
+実例: `wiki.makerbot.com`(2011年スナップショット)を Wayback Machine からミラー — 3,575ファイル / 3,272HTMLページ / 291MB を約13.5時間でDL。途中で再起動が入ったが `--update` 再開モードで完走。
+
 ---
 
 ## 使い方

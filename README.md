@@ -81,6 +81,12 @@ On first run, the script generates two editable filter files in its own director
 
 The `raspi-config`-style TUI runs entirely inside your terminal — no GUI required.
 
+### Completion screen
+
+![Download complete](screenshots/02-completion.png)
+
+Sample completion: a Wayback Machine mirror of `wiki.makerbot.com` (year 2011) — 3,575 files, 3,272 HTML pages, 291 MB, downloaded over ~13.5 hours via the `--update` resume mode after a mid-run reboot.
+
 ---
 
 ## Usage
